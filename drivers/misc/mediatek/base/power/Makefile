@@ -183,3 +183,4 @@ obj-$(CONFIG_MACH_MT6833) += gpufreq_v1/
 obj-$(CONFIG_MACH_MT6877) += gpufreq_v1/
 obj-$(CONFIG_MACH_MT6781) += gpufreq_v1/
 endif
+obj-y += mtk_events_tp.o
