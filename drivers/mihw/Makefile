@@ -1,1 +1,1 @@
-obj-$(CONFIG_MILLET) += ../../../vendor/xiaomi/kernel_modules/mihw/millet/
+# # # obj-$(CONFIG_MILLET) += ../../../vendor/xiaomi/kernel_modules/mihw/millet/

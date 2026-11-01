@@ -187,4 +187,4 @@ obj-$(CONFIG_MULTIPLEXER)	+= mux/
 obj-$(CONFIG_TRUSTY)	+= trusty/
 obj-$(CONFIG_GNSS)		+= gnss/
 obj-$(CONFIG_SWITCH)		+= switch/
-obj-$(CONFIG_MIHW)		+= mihw/
+# # obj-$(CONFIG_MIHW)		+= mihw/
