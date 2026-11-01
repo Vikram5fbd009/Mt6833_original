@@ -6,3 +6,5 @@
 
 obj-$(CONFIG_TOUCHSCREEN_NT36672C) += nt36xxx.o nt36xxx_fw_update.o nt36xxx_ext_proc.o nt36xxx_mp_ctrlram.o
 ccflags-y += -Wno-error=frame-larger-than=
+ccflags-y += -Wno-error=frame-larger-than=
+ccflags-y += -Wno-error=frame-larger-than=
