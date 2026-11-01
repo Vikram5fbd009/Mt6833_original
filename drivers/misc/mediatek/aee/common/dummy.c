@@ -191,4 +191,4 @@ __weak int mtk_rgu_status_is_eintrst(void)
 /* Stub global state variables — provide symbols for other MTK drivers
  * (mtk_gpufreq_common.o, mrdump_panic.o) when AEE common is not fully built. */
 int aee_mode = 0;
-int aee_is_enable = 0;
+int aee_is_enable(void) { return 0; }
