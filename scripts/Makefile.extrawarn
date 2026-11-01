@@ -1,7 +1,6 @@
-# Custom extrawarn to prevent Clang 11 build failures on MTK 4.14
+# Custom extrawarn for Clang 11 MTK build
 KBUILD_CFLAGS += -Wno-error=implicit-function-declaration
 KBUILD_CFLAGS += -Wno-error=incompatible-pointer-types
 KBUILD_CFLAGS += -Wno-error=int-conversion
 KBUILD_CFLAGS += -Wno-error=return-type
 KBUILD_CFLAGS += -Wno-error=unused-but-set-variable
-KBUILD_CFLAGS += -Wno-error=unknown-warning-option
