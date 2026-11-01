@@ -11,3 +11,4 @@ ccflags-y += -Wno-error=frame-larger-than=
 ccflags-y += -Wno-error=frame-larger-than=
 ccflags-y += -Wno-error=frame-larger-than=
 ccflags-y += -Wno-error=frame-larger-than=
+ccflags-y += -Wno-error=frame-larger-than=
