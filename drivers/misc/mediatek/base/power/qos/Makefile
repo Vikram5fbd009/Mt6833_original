@@ -55,3 +55,8 @@ obj-$(QOS_SHARE_SUPPORT) += mtk_qos_share.o
 ccflags-$(QOS_SHARE_SUPPORT) += -DQOS_SHARE_SUPPORT
 # obj-y += $(MTK_PLATFORM)/
 
+ccflags-y += -I$(srctree)/drivers/misc/mediatek/sspm
+ccflags-y += -I$(srctree)/drivers/misc/mediatek/sspm/mt6853
+ccflags-y += -I$(srctree)/drivers/misc/mediatek/include
+ccflags-y += -I$(srctree)/drivers/misc/mediatek/include/mt-plat
+ccflags-y += -I$(srctree)/drivers/misc/mediatek/include/mt-plat/mt6853
