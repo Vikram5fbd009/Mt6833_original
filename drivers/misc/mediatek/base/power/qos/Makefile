@@ -29,7 +29,6 @@ endif
 ccflags-y += -I$(srctree)/drivers/misc/mediatek/sspm/
 ifneq ($(CONFIG_MTK_TINYSYS_SSPM_VERSION),"")
 ccflags-y += -I$(srctree)/drivers/misc/mediatek/sspm/$(CONFIG_MTK_TINYSYS_SSPM_VERSION)
-else
 ccflags-y += -I$(srctree)/drivers/misc/mediatek/sspm/$(MTK_PLATFORM)/
 endif
 
@@ -45,7 +44,6 @@ ifeq ($(CONFIG_MACH_MT6877),y)
 ccflags-y += -I$(srctree)/drivers/misc/mediatek/base/power/qos/mt6877
 else
 ccflags-y += -I$(srctree)/drivers/misc/mediatek/base/power/qos/$(MTK_PLATFORM)/
-else
 ccflags-y += -I$(srctree)/drivers/misc/mediatek/base/power/qos/$(CONFIG_MTK_PLATFORM)
 endif
 

@@ -13,7 +13,7 @@ export STRIP=llvm-strip
 export CLANG_TRIPLE=aarch64-linux-gnu-
 export CROSS_COMPILE=aarch64-linux-android-
 export CROSS_COMPILE_ARM32=arm-linux-androideabi-
-KCFLAGS_FIX="-Wno-error=incompatible-pointer-types -Wno-error=implicit-function-declaration -Wno-error=int-conversion -Wno-error=return-type -Wno-error=macro-redefined -Wno-error=array-bounds -Wno-error=unused-but-set-variable -Wno-error=unused-variable -Wno-error=address-of-packed-member"
+KCFLAGS_FIX="-Wno-error=incompatible-pointer-types -Wno-error=implicit-function-declaration -Wno-error=int-conversion -Wno-error=return-type -Wno-error=macro-redefined -Wno-error=array-bounds  -Wno-error=unused-variable -Wno-error=address-of-packed-member"
 echo ">>> Generating Defconfig..."
 make O=out ARCH=arm64 camellia_defconfig
 echo ">>> Compiling Kernel..."
